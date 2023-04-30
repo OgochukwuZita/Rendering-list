@@ -9,6 +9,7 @@
    display: grid;
    grid-template-columns: repeat(2,1fr);
    margin-left: 8%;
+
 }
 .container{
     display: flex;
@@ -16,7 +17,12 @@
     gap: 3%;
     padding-bottom: 5%;
 }
+.b{
+    background-color: #ffff;
+    display: flex;
+}
 .subcontainer{
     display: flex;
     gap: 2%;
 }
+

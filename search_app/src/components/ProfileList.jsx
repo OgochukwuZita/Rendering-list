@@ -3,7 +3,7 @@ import './styles/list.css'
 
 export default function ProfileList(props) {
   return (
-    <div>
+    <div >
         <ul className='profilelist'>
          {props.Details.map((user)=>{
             return(
@@ -11,6 +11,7 @@ export default function ProfileList(props) {
                 <li key={user.id} >
                     
                  <div className='container'>
+                  <div className='b'>  
                     <div>
                     <img src={user.picture} alt="profile" width={"55px"} />
                     </div>
@@ -28,6 +29,7 @@ export default function ProfileList(props) {
                             </div>
                         </span>
                     </div>
+                 </div>
                  </div>
                     
                 </li>
