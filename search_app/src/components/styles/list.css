@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.profilelist{
+   list-style-type: none;
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   margin-left: 8%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    padding-bottom: 5%;
+}
+.subcontainer{
+    display: flex;
+    gap: 2%;
+}

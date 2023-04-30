@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.profileSearch{
+    border: 1px solid pink;
+    width: 50%;
+    height: 35em;
+    margin: 20%;
+    background-image: linear-gradient(rgb(249, 60, 186), #e0d154);
+}
